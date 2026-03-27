@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aradhya Interiors and Solutions | Premium Interior Design & Carpentry</title>
+  <meta name="description" content="Aradhya Interiors and Solutions provides premium interior design, carpentry, custom furniture, renovation, lighting and color consultation in Bengaluru." />
+  <meta name="theme-color" content="#84B179" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="pageTransition" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div id="cursorDot" class="cursor-dot"></div>
+  <div id="cursorGlow" class="cursor-glow"></div>
+
+  <div id="preloader" aria-label="Loading">
+    <div class="loader-box">
+      <div class="loader-ring"></div>
+      <h2>Aradhya Interiors</h2>
+      <p>Crafting premium spaces...</p>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container nav-wrap">
+      <!-- Embedded AI-style SVG logo (no missing file issue) -->
+      <a href="#home" class="logo" aria-label="Aradhya Interiors Home">
+        <svg class="logo-svg" viewBox="0 0 290 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aradhya Interiors and Solutions">
+          <defs>
+            <linearGradient id="logoGradient" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#84B179"></stop>
+              <stop offset="55%" stop-color="#A2CB8B"></stop>
+              <stop offset="100%" stop-color="#E8F5BD"></stop>
+            </linearGradient>
+          </defs>
+          <rect x="2" y="4" width="56" height="56" rx="14" fill="#1B3321"></rect>
+          <path d="M15 44L30 14L45 44H39L30 25L21 44H15Z" fill="url(#logoGradient)"></path>
+          <rect x="27.2" y="29" width="5.6" height="15" rx="2.8" fill="#E8F5BD"></rect>
+          <circle cx="47" cy="17" r="2.6" fill="#C7EABB"></circle>
+          <text x="70" y="27" fill="#E8F5BD" font-size="16" font-weight="700" font-family="Poppins, Arial">Aradhya Interiors</text>
+          <text x="70" y="45" fill="#C7EABB" font-size="10.5" font-weight="600" letter-spacing="1.6" font-family="Poppins, Arial">&amp; SOLUTIONS</text>
+        </svg>
+      </a>
+
+      <nav class="nav" id="navMenu" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Gallery</a>
+        <a href="#stats" class="nav-link">Stats</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌗</button>
+        <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero section">
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="hero-badge reveal">Premium Interior & Carpentry Services • Bengaluru</span>
+      <h1 class="reveal">Bespoke Interiors. <span>Timeless Craftsmanship.</span></h1>
+      <p class="reveal">We transform homes into elegant, functional spaces with exceptional design and precision carpentry.</p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-primary magnetic">Book Free Consultation</a>
+        <a href="#portfolio" class="btn btn-outline magnetic">View Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-separator">
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+      <path d="M0,64L48,58.7C96,53,192,43,288,48C384,53,480,75,576,80C672,85,768,75,864,64C960,53,1056,43,1152,42.7C1248,43,1344,53,1392,58.7L1440,64L1440,120L0,120Z"></path>
+    </svg>
+  </div>
+
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div class="reveal">
+        <p class="section-subtitle">About Us</p>
+        <h2 class="section-title">Crafting premium living experiences in Bengaluru</h2>
+        <p class="text-muted">At <strong>Aradhya Interiors and Solutions</strong>, we blend creativity with craftsmanship to build elegant and functional interiors.</p>
+        <div class="about-contact">
+          <p><strong>Phone:</strong> <a href="tel:+919079886840">+91 9079886840</a></p>
+          <p><strong>Email:</strong> <a href="mailto:devlimma2001@gmail.com">devlimma2001@gmail.com</a></p>
+          <p><strong>Location:</strong> Bengaluru, Karnataka</p>
+        </div>
+      </div>
+      <div class="about-panels reveal">
+        <article class="panel-card"><h3>Our Mission</h3><p>Create beautiful and practical spaces.</p></article>
+        <article class="panel-card"><h3>Our Vision</h3><p>Be Bengaluru’s trusted premium interior brand.</p></article>
+        <article class="panel-card"><h3>Our Promise</h3><p>Quality, transparency, and on-time delivery.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <p class="section-subtitle reveal">Services</p>
+      <h2 class="section-title reveal">Complete interior and carpentry solutions</h2>
+      <div class="service-grid">
+        <article class="service-card reveal"><span>🏠</span><h3>Interior Design</h3><p>Premium layouts and refined design direction.</p></article>
+        <article class="service-card reveal"><span>🪚</span><h3>Carpentry Services</h3><p>Precision modular and custom woodwork.</p></article>
+        <article class="service-card reveal"><span>🛋️</span><h3>Custom Furniture</h3><p>Bespoke furniture for your exact needs.</p></article>
+        <article class="service-card reveal"><span>🔨</span><h3>Home Renovation</h3><p>Transform old spaces into modern homes.</p></article>
+        <article class="service-card reveal"><span>💡</span><h3>Lighting Design</h3><p>Ambient and functional lighting plans.</p></article>
+        <article class="service-card reveal"><span>🎨</span><h3>Color Consultation</h3><p>Harmonious palettes for timeless interiors.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <div class="container">
+      <p class="section-subtitle reveal">Portfolio</p>
+      <h2 class="section-title reveal">Selected Projects</h2>
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="interior">Interiors</button>
+        <button class="filter-btn" data-filter="furniture">Furniture</button>
+        <button class="filter-btn" data-filter="renovation">Renovation</button>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid"></div>
+    </div>
+  </section>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightboxClose" class="lightbox-close" aria-label="Close image">×</button>
+    <img id="lightboxImg" src="" alt="Preview image" />
+  </div>
+
+  <section id="stats" class="section section-alt">
+    <div class="container stats-grid">
+      <article class="stat-card reveal"><h3><span class="counter" data-target="150">0</span>+</h3><p>Projects Completed</p></article>
+      <article class="stat-card reveal"><h3><span class="counter" data-target="120">0</span>+</h3><p>Custom Builds</p></article>
+      <article class="stat-card reveal"><h3><span class="counter" data-target="98">0</span>%</h3><p>Client Satisfaction</p></article>
+      <article class="stat-card reveal"><h3><span class="counter" data-target="10">0</span>+</h3><p>Years Experience</p></article>
+    </div>
+  </section>
+
+  <section id="process" class="section">
+    <div class="container">
+      <p class="section-subtitle reveal">Process</p>
+      <h2 class="section-title reveal">How we deliver excellence</h2>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span>01</span><h3>Consultation</h3><p>Understand your needs.</p></article>
+        <article class="timeline-item reveal"><span>02</span><h3>Planning</h3><p>Layouts, materials and timeline.</p></article>
+        <article class="timeline-item reveal"><span>03</span><h3>Approval</h3><p>Final scope and quote.</p></article>
+        <article class="timeline-item reveal"><span>04</span><h3>Execution</h3><p>Quality implementation.</p></article>
+        <article class="timeline-item reveal"><span>05</span><h3>Handover</h3><p>Final finishing and delivery.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section section-alt">
+    <div class="container">
+      <p class="section-subtitle reveal">Testimonials</p>
+      <h2 class="section-title reveal">What clients say</h2>
+      <div class="testimonial-slider reveal">
+        <button class="slider-btn prev" id="prevTestimonial" aria-label="Previous">❮</button>
+        <div class="slides">
+          <article class="testimonial-slide active"><div class="stars">★★★★★</div><p>“Outstanding design sense and excellent finish.”</p><h4>— Priya S.</h4></article>
+          <article class="testimonial-slide"><div class="stars">★★★★★</div><p>“Professional team and timely delivery.”</p><h4>— Manjunath R.</h4></article>
+          <article class="testimonial-slide"><div class="stars">★★★★★</div><p>“Amazing quality and smooth process.”</p><h4>— Kavya N.</h4></article>
+        </div>
+        <button class="slider-btn next" id="nextTestimonial" aria-label="Next">❯</button>
+      </div>
+      <div id="sliderDots" class="slider-dots"></div>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <div class="container">
+      <p class="section-subtitle reveal">FAQ</p>
+      <h2 class="section-title reveal">Frequently asked questions</h2>
+      <div class="faq-list">
+        <article class="faq-item reveal"><button class="faq-question">Do you handle full home interiors?</button><div class="faq-answer"><p>Yes, complete end-to-end execution is available.</p></div></article>
+        <article class="faq-item reveal"><button class="faq-question">Can I book only carpentry work?</button><div class="faq-answer"><p>Yes, standalone carpentry is available.</p></div></article>
+        <article class="faq-item reveal"><button class="faq-question">How to get quotation?</button><div class="faq-answer"><p>Call/WhatsApp or submit the form below.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <p class="section-subtitle reveal">Contact</p>
+      <h2 class="section-title reveal">Let’s build your dream space</h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Contact Information</h3>
+          <p><strong>Phone:</strong> <a href="tel:+919079886840">+91 9079886840</a></p>
+          <p><strong>Email:</strong> <a href="mailto:devlimma2001@gmail.com">devlimma2001@gmail.com</a></p>
+          <p><strong>Address:</strong> 30/20, 5th Cross Rd, T.G. layout, Ittamadu, Banashankari 3rd Stage, Bengaluru, Karnataka 560085</p>
+          <p><strong>Map:</strong> <a href="https://share.google/UuDlAtPUeS6AbNRNZ" target="_blank" rel="noopener">Open Location</a></p>
+        </div>
+        <form id="contactForm" class="contact-form reveal" novalidate>
+          <div class="form-row"><label for="name">Full Name *</label><input id="name" type="text" required><small class="error"></small></div>
+          <div class="form-row"><label for="phone">Phone *</label><input id="phone" type="tel" required><small class="error"></small></div>
+          <div class="form-row"><label for="email">Email *</label><input id="email" type="email" required><small class="error"></small></div>
+          <div class="form-row"><label for="service">Service *</label>
+            <select id="service" required>
+              <option value="">Select</option><option>Interior Design</option><option>Carpentry Services</option><option>Custom Furniture</option><option>Home Renovation</option><option>Lighting Design</option><option>Color Consultation</option>
+            </select><small class="error"></small>
+          </div>
+          <div class="form-row"><label for="message">Project Details *</label><textarea id="message" rows="5" required></textarea><small class="error"></small></div>
+          <button type="submit" class="btn btn-primary magnetic">Send Inquiry</button>
+          <p id="formSuccess" class="form-success"></p>
+        </form>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe title="Location" src="https://www.google.com/maps?q=30/20,%205th%20Cross%20Rd,%20T.G.%20layout,%20Ittamadu,%20Banashankari%203rd%20Stage,%20Banashankari,%20Bengaluru,%20Karnataka%20560085&output=embed" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><h3>Aradhya Interiors and Solutions</h3><p>Premium Interior Design & Carpentry Services in Bengaluru.</p></div>
+      <div><h4>Quick Links</h4><ul><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#portfolio">Gallery</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="tel:+919079886840">+91 9079886840</a></li><li><a href="mailto:devlimma2001@gmail.com">devlimma2001@gmail.com</a></li><li>Bengaluru, Karnataka 560085</li></ul></div>
+    </div>
+    <div class="footer-bottom">© <span id="year"></span> Aradhya Interiors and Solutions. All rights reserved.</div>
+  </footer>
+
+  <a class="whatsapp-cta" href="https://wa.me/919079886840?text=Hello%20Aradhya%20Interiors%20and%20Solutions%2C%20I%20would%20like%20a%20consultation." target="_blank" rel="noopener" aria-label="Contact on WhatsApp">
+    <span class="wa-icon">💬</span>
+    <span class="wa-content">
+      <strong>Contact on WhatsApp</strong>
+      <small>Instant response • Free consultation</small>
+    </span>
+  </a>
+
+  <button id="backToTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
