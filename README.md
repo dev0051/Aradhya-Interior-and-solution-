@@ -32,11 +32,7 @@ The project focuses on **modern design, responsiveness, and performance** to eff
 
 ---
 
-## 📸 Screenshots
 
-*Add your screenshots here (recommended for better impact)*
-
----
 
 ## 🚀 Deployment
 
